@@ -1,4 +1,4 @@
-function cdmExpandArticleMod(id, noexpand) {
+function cdmExpandArticle(id, noexpand) {
 	try {
 		console.log("cdmExpandArticle " + id);
 
@@ -64,5 +64,3 @@ function cdmExpandArticleMod(id, noexpand) {
 
 	return false;
 }
-
-cdmExpandArticle = cdmExpandArticleMod;
